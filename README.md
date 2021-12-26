@@ -18,3 +18,5 @@ Due to the time limitations, we decided to use great and ready to use open sourc
 - Then, using the library [wylee/Dijkstar](https://github.com/wylee/Dijkstar) and utilizing its implementation of the       Dijkstra pathfinding algorithm, we were able to find the most efficient path through the density map.
 - We then drew a simple line representing the path onto the original image. Due to the duration of process, we were only able to process frame-by-frame, so we automated the processing by using a folder full of frames belonging to a video-clip and processing the images seperately.
 - The result is a series of images with the updated rendered most efficient path on each image. These can be used to create a .gif file for presentational purposes.
+
+Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability to the jury.
