@@ -20,3 +20,6 @@ Due to the time limitations, we decided to use great and ready to use open sourc
 - The result is a series of images with the updated rendered most efficient path on each image. These can be used to create a .gif file for presentational purposes.
 
 Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability to the jury.
+
+
+
