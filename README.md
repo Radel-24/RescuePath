@@ -48,7 +48,7 @@ and
 
 ## The Team
 We are four students who study computer science at [42 Heilbronn](https://www.42heilbronn.de/en/):
-[Olivier](https://github.com/FunkyOctopus)
-[Robin](https://github.com/Radel-24)
-[Yavuz](https://github.com/yavuzsonmez)
-[Andreas](https://github.com/realisticDonut)
+[Olivier](https://github.com/FunkyOctopus),
+[Robin](https://github.com/Radel-24),
+[Yavuz](https://github.com/yavuzsonmez),
+[Andreas](https://github.com/realisticDonut).
