@@ -27,7 +27,11 @@ Because of time limitations, we concentrated on creating a Minimum Viable Produc
 - Validate the rendered images with tests that ensure the path is truly the most efficient and practical path possible.
 - Live testing in a large group of people.
 
-
+### Use Cases
+- Emergency services for navigating through a large crowd
+- Prevention of catastrophes that happen in huge crowds by offering a navigation app to participants.
+  This app can show the live density of certain regions and give suggestions on where to go and how to get there without overcrowding certain areas. Also, navigation to certain points of interest like food/drink stands, toilets, etc. can ensure safe travel through the crowd and optimize distibution of people amongst these locations, reducing waiting time and potentially maximizing profits for the stands themselves.
+- Anything where large crowds of people can be a problem.
 
 
 
