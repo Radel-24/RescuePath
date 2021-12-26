@@ -13,7 +13,7 @@ Imagine dancing around and seriously injuring yourself while in this situation, 
 ### Our Solution: RescuePath
 We decided to create software that analyzes top-view images of large crowds and finds the most efficient way from point A to point B within this crowd. The end goal was a kind of "Navigation System" through the crowd, taking the constantly changing dynamic crowd into consideration.
 Due to the time limitations, we decided to use great and ready to use open source libraries as the base of our software.
-- First, we used an open-source library called [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting library) to first create a density map of a given image.
+- First, we used an open-source library called [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting library) to first create a density map of a given image. It utilizes a 
   This density map gave us the (surprisingly accurate) amount of people per pixel on the image.
 - Then, using the library [wylee/Dijkstar](https://github.com/wylee/Dijkstar) and utilizing its implementation of the       Dijkstra pathfinding algorithm, we were able to find the most efficient path through the density map.
 - We then drew a simple line representing the path onto the original image.
