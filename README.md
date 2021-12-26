@@ -1,5 +1,5 @@
 # ![Rescuepath](https://user-images.githubusercontent.com/86598034/147409201-2f75ae4d-8c87-44f0-9b8c-72c945416347.png)
-A program that finds the most efficient path through a crowd using a given image showing a top view of a large crowd.
+A program that finds the most efficient path through a large crowd.
 
 ## Description
 A program that finds the most efficient path through a crowd using a given image showing a top view of a large crowd.
