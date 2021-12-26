@@ -19,7 +19,7 @@ Due to the time limitations, we decided to use great and ready to use open sourc
 - We then drew a simple line representing the path onto the original image.
 - The result is a rendered image of the frame inclduing the most efficient path calculated by the algorithm.
 
-Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability to the jury.
+Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability.
 ![ConvertedRender](https://user-images.githubusercontent.com/86598034/147410846-f4f8f4b6-a731-4a0b-bda8-3dc69a9da6d0.gif)
 ### Future Plans
 - Optimize/rewrite the algorithms so a live-rendering of video feed is possible.
