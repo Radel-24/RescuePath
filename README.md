@@ -16,10 +16,18 @@ Due to the time limitations, we decided to use great and ready to use open sourc
 - First, we used an open-source library called [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting     library) to first create a density map of a given image.
   This density map gave us the (surprisingly accurate) amount of people per pixel on the image.
 - Then, using the library [wylee/Dijkstar](https://github.com/wylee/Dijkstar) and utilizing its implementation of the       Dijkstra pathfinding algorithm, we were able to find the most efficient path through the density map.
-- We then drew a simple line representing the path onto the original image. Due to the duration of process, we were only able to process frame-by-frame, so we automated the processing by using a folder full of frames belonging to a video-clip and processing the images seperately.
-- The result is a series of images with the updated rendered most efficient path on each image. These can be used to create a .gif file for presentational purposes.
+- We then drew a simple line representing the path onto the original image.
+- The result is a rendered image of the frame inclduing the most efficient path calculated by the algorithm.
 
 Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability to the jury.
+
+### Future Plans
+- Optimize/rewrite the algorithms so a live-rendering of video feed is possible.
+- "Translate" the rendered images into a human-usable form. Currently, the line is very jumpy and not very usable for a person walking through the crowd. We would like to create an app for smartphones and smartwatches that shows the general direction of where to walk to instead of a line that seems impossible to follow.
+- Validate the rendered images with tests that ensure the path is truly the most efficient and practical path possible.
+- Live testing in a large group of people.
+
+
 
 
 
