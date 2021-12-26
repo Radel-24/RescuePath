@@ -13,7 +13,7 @@ Imagine dancing around and seriously injuring yourself while in this situation, 
 ### Our Solution: RescuePath
 We decided to create software that analyzes top-view images of large crowds and finds the most efficient way from point A to point B within this crowd. The end goal was a kind of "Navigation System" through the crowd, taking the constantly changing dynamic crowd into consideration.
 Due to the time limitations, we decided to use great and ready to use open source libraries as the base of our software.
-- First, we used an open-source library called [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting     library) to first create a density map of a given image.
+- First, we used an open-source library called [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting library) to first create a density map of a given image.
   This density map gave us the (surprisingly accurate) amount of people per pixel on the image.
 - Then, using the library [wylee/Dijkstar](https://github.com/wylee/Dijkstar) and utilizing its implementation of the       Dijkstra pathfinding algorithm, we were able to find the most efficient path through the density map.
 - We then drew a simple line representing the path onto the original image.
@@ -21,7 +21,6 @@ Due to the time limitations, we decided to use great and ready to use open sourc
 
 Because of time limitations, we concentrated on creating a Minimum Viable Product to be able to pitch the general idea and plausability to the jury.
 ![ConvertedRender](https://user-images.githubusercontent.com/86598034/147410846-f4f8f4b6-a731-4a0b-bda8-3dc69a9da6d0.gif)
-
 ### Future Plans
 - Optimize/rewrite the algorithms so a live-rendering of video feed is possible.
 - "Translate" the rendered images into a human-usable form. Currently, the line is very jumpy and not very usable for a person walking through the crowd. We would like to create an app for smartphones and smartwatches that shows the general direction of where to walk to instead of a line that seems impossible to follow.
@@ -34,5 +33,22 @@ Because of time limitations, we concentrated on creating a Minimum Viable Produc
   This app can show the live density of certain regions and give suggestions on where to go and how to get there without overcrowding certain areas. Also, navigation to certain points of interest like food/drink stands, toilets, etc. can ensure safe travel through the crowd and optimize distibution of people amongst these locations, reducing waiting time and potentially maximizing profits for the stands themselves.
 - Anything where large crowds of people can be a problem.
 
+## Technologies
+- Google Collab
+- Python 3
+- Special thanks to: [LWCC](https://github.com/tersekmatija/lwcc) (LightWeight Crowd Counting library)
+and
+[wylee/Dijkstar](https://github.com/wylee/Dijkstar) (Implemenation of Dijkstra pathfinding algorithm)!
 
 
+## Usage
+- Open the rescuepath.ipynb notepad in [Google Collabs](https://colab.research.google.com/)
+- Follow the steps on the notebook comments.
+- Make sure you have an image of a large crowd ready. This should be somewhat top-view.
+
+## The Team
+We are four students who study computer science at [42 Heilbronn](https://www.42heilbronn.de/en/):
+[Olivier](https://github.com/FunkyOctopus)
+[Robin](https://github.com/Radel-24)
+[Yavuz](https://github.com/yavuzsonmez)
+[Andreas](https://github.com/realisticDonut)
