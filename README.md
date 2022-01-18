@@ -3,7 +3,7 @@ A program that finds the most efficient path through a large crowd.
 
 ## Description
 A program that finds the most efficient path through a crowd using a given image showing a top view of a large crowd.
-This project was made during a 48 hours [Hackathon](https://www.hck-hnx.de/) hosted by the Hochschule Heilbronn together with the companies [Beyerdynamic](https://www.beyerdynamic.de/), [IDS](https://de.ids-imaging.com/), [Schunk](https://schunk.com/de_de/startseite/) and [42 Heilbronn](https://www.42heilbronn.de/en/).
+This project was made during a 48 hour [Hackathon](https://www.hck-hnx.de/) hosted by the Hochschule Heilbronn together with the companies [Beyerdynamic](https://www.beyerdynamic.de/), [IDS](https://de.ids-imaging.com/), [Schunk](https://schunk.com/de_de/startseite/) and [42 Heilbronn](https://www.42heilbronn.de/en/).
 The topic of the hackathon was "Sensors and AI" with the goal of creating a prototype of a product that uses some form of AI and the technologies offered by the companies.
 
 After brainstorming about possibilities, we noticed a very current problem with large crowds all over the world, and decided to work on our project we later named "RescuePath".
